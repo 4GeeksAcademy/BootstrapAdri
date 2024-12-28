@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <div class="container-md">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 px-4 m-2">
+                <h2><i class="fi fi-brands-instagram"></i> Instagram</h2></div>
+            <div class="col-md-1 px-4 m-2">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Crear un nuevo post</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel mr-2 pr-2">Crear un nuevo post</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                        <div class="modal-body">
+                                <p>Subtítulo:</p>
+                                <textarea class="form-control" placeholder="Escribe un texto para tu post y añade hashtags..."></textarea>
+                                <div class="row p-2">
+                                    <button class="col-1 border rounded p-1 m-1 btn-light">
+                                        <i class="fi fi-rr-camera"></i>
+                                    </button>
+                                    <button class="col-1 border rounded p-1 m-1 btn-light">
+                                        <i class="fi fi-ss-marker"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-success">Publicar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-1 px-4 m-2">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Acción
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Perfil</a>
+                      <a class="dropdown-item" href="#">Accesibilidad</a>
+                      <a class="dropdown-item" href="#">Permisos del dispositivo</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Cerrar sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<!-- fin de la parte superior -->
+
+        <div class="d-flex justify-content-center" role="interruptor" aria-label="Toggle buttons">
+            <div class=" btn btn-dark m-2 px-2">    
+                <i class="fi fi-rs-apps"></i>
+                <input type="radio" class="btn-check mr-2" name="toggleOptions" id="btn1" autocomplete="off" checked> 
+                <input type="radio" class="btn-check" name="toggleOptions" id="btn2" autocomplete="off">
+                <i class="fi fi-rr-film"></i>
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/41/3c/6c/413c6cf0800fb8dd99aec857e39927a9.jpg" class="img-fluid w-100"></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/ec/a4/5b/eca45b6cf5da3f03006327af6b0e9e80.jpg" class="img-fluid w-100"></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/f6/d1/f1/f6d1f11edc88fc543d4ead54aa80bcee.jpg" class="img-fluid w-100" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/26/cd/10/26cd103523c0fb33ef17d9959659b318.jpg" class="img-fluid w-100" alt=""></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/d8/7e/59/d87e595476f4de7afca38688c516d620.jpg" class="img-fluid w-100"></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/b8/b1/2a/b8b12ac90e6edf053d6f82cda2eda99b.jpg" class="img-fluid w-100"></div>
+            </div>  
+            <div class="row">
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/96/3e/28/963e28bd1e9086403999debe2e36c1eb.jpg" class="img-fluid w-100"></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/1f/36/ca/1f36ca8bd1090961e08fa4e8233e4c3e.jpg" class="img-fluid w-100"></div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.pinimg.com/736x/15/26/2d/15262d4e9b95fd3d64f29a1b3e132c50.jpg" class="img-fluid w-100"></div>
+            </div> 
+        </div>
+        </div>
+
+        <!-- ahora es la parte de las publicaciones en vertical-->  
+         <div class="d-flex flex-column justify-content-center align-items-center">
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/41/3c/6c/413c6cf0800fb8dd99aec857e39927a9.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">perroRabioso</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>El poder de Gon en este momento no es solo físico, es el reflejo puro de un corazón destrozado. Su odio y desesperación lo llevan a romper sus límites, pero a un precio devastador. ¿Cuánto estarías dispuesto a sacrificar por proteger o vengar a alguien que amas? Este instante nos recuerda que el dolor puede convertirnos en nuestra versión más fuerte... o en la más peligrosa.</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/ec/a4/5b/eca45b6cf5da3f03006327af6b0e9e80.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">gallinaDeHyrule</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>El mundo está en ruinas, pero la esperanza nunca ha sido tan fuerte. Link no solo carga con la espada del héroe, sino también con el peso de proteger Hyrule una vez más. Cada paso, cada enemigo, cada sacrificio lo acercan a su destino. En Breath of the Kingdom, la leyenda vive en cada amanecer, recordándonos que incluso en la oscuridad más profunda, siempre hay una luz que guiará el camino.</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/f6/d1/f1/f6d1f11edc88fc543d4ead54aa80bcee.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">playerOfLouisville</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>Llegó la Build 42 antes de Navidad AAAAHHHHHH!!!! Qué ganas de tener una excusa nueva para disociar de la realidad porque necesito llegar a metalistería nivel 5 en un mundo en el que conseguir propano es un fcking reto. Un pequeño spoyler? hay un nuevo pueblo de spawn pero no hay casi loot. Ni comisaría central ni un mísero colegio para farmear libros.</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/26/cd/10/26cd103523c0fb33ef17d9959659b318.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">gymrat123</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>Se nos va papá. Este año fue el último Olympia de Chris Bumstead, tras ganar su sexto título consecutivo en la categoría Classic Physique, anunció su retirada. Terrible.</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/d8/7e/59/d87e595476f4de7afca38688c516d620.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">pocketSage</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>Omen es el agente sombrío y misterioso de Valorant que juega con las sombras como nadie. Con su habilidad para teletransportarse, lanzar humos oscuros y cegar a los enemigos, es el maestro del sigilo y el caos en el campo de batalla. Su estética enigmática, con voz profunda y capa oscura, lo convierten en uno de los personajes más intimidantes del juego.</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/b8/b1/2a/b8b12ac90e6edf053d6f82cda2eda99b.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">spotify</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>En mi Wrapped 2024 hay más horas que en el minecraft y tantos tipos de géneros que ni sé diferenciarlos, y ni así pude conseguir que en mi top 10 no estuviese una de Bad Bunny o Quevedo. khe me pasah</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/96/3e/28/963e28bd1e9086403999debe2e36c1eb.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">mortySmith</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>En su búsqueda por entender el universo, ha perdido partes de sí mismo que nunca podrá recuperar. Cada risa sarcástica y cada botella vacía esconden una tristeza que ni su intelecto puede resolver. Tal vez su mayor dilema no sea la ciencia, sino el vacío que siente al enfrentar su propia existencia. ¿Qué valor tiene todo el conocimiento si no puedes compartirlo de verdad?</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/1f/36/ca/1f36ca8bd1090961e08fa4e8233e4c3e.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">koreanEnjoyer</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>Parasite nos enfrenta a la cruel realidad de las desigualdades sociales, mostrando cómo la lucha por la supervivencia puede desdibujar los límites de la moralidad. La película cuestiona si las diferencias de clase son solo circunstancias externas o una barrera insuperable creada por la sociedad misma. En su núcleo, nos recuerda que la aspiración de una vida mejor puede unirnos, pero también dividirnos irremediablemente. Al final, ¿somos víctimas de un sistema injusto o de nuestras propias ambiciones?</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+            <div role="postEntera" class="d-flex flex-column col-5 mt-3">
+                <div role="title" class="d-flex">
+                    <div role="perfil" class="p-2"><img src="https://i.pinimg.com/736x/a7/94/2f/a7942fb5428046c714e63b4da3ecdcc5.jpg" class="rounded-circle" style="width: 4vw; height: 4vw; object-fit: cover;"></div>
+                    <div class="m-2"><p class="font-weight-bold" style="font-size: 2.5vh;">GatoRandom123</p></div>
+                </div>
+                <div role="img" class="p-1"><img src="https://i.pinimg.com/736x/15/26/2d/15262d4e9b95fd3d64f29a1b3e132c50.jpg" class="w-100"></div>
+                <div role="body">
+                    <h3><div class="iconos m-1 d-flex justify-content-between"><div><i class="fi fi-rs-heart m-2"></i><i class="fi fi-rs-comment-dots m-2"></i><i class="fi fi-rs-share m-2"></i></div><div><i class="fi fi-rr-bookmark m-2"></i></div></div></h3>
+                    <div>
+                        <p style="margin-bottom: 0%;">Les gusta a <snap class="font-weight-bold">losPollosHermanos</snap> y <snap class="font-weight-bold">otras personas</snap></p>
+                        <p class="fs-6 fs-md-4 fs-lg-2"><snap class="font-weight-bold">GatoRandom123 </snap>Simplemente Gustavo Fring(también conocido como "Dos caras").</p>
+                        <input type="text" placeholder="Añadir un comentario..." class="w-100" style="border-top: 0; border-right: 0; border-left: 0;">
+                    </div>
+                </div>
+            </div>
+         </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
